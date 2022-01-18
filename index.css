@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #141414;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+/* ---- NAVBAR ---- */
+
+.navbar {
+    position: sticky;
+    top: 0;
+    display: flex;
+    padding: 0 4%;
+    min-height: 68px;
+    align-items: center;
+    font-size: small;
+    background-color: darkmagenta;
+}
+
+.navbar__logo {
+    display:flex;
+}
+
+.navbar__logo > img {
+    height: 50px;
+}
+
+.navbar__browse {
+    
+}
+
+.navbar__browse > ul {
+    list-style: none;
+}
+
+.navbar__browse >ul > li {
+    display: inline;
+    margin-left: 16px;
+}
+
+.navbar__browse >ul > li:first-child {
+    margin-left: 0;
+}
+
+.navbar__browse > ul > li > a {
+    text-decoration: none;
+    color: inherit; /* BLANCO DEL BODY */
+}
