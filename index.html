@@ -1,31 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix</title>
-    <link rel="stylesheet" href="index.css">
-    <script ></script>
-</head>
-<body>
-    <div class="navbar">
-        <div class="navbar__logo">
-            <img src="Recursos/Logo.png" alt="">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Netflix</title>
+        <link rel="stylesheet" href="index.css">
+        <script ></script>
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="navbar__logo">
+                <img src="Recursos/Logo.png" alt="">
+            </div>
+            <div class="navbar__browse">
+                <ul>
+                    <li class="navbar__browse--state-selected">
+                        <a href="#">Inicio</a>
+                    </li>
+                    <li >
+                        <a href="#">Series</a>
+                    </li>
+                    <li >
+                        <a href="#">Peliculas</a>
+                    </li>
+                    <li >
+                        <a href="#">Mas recientes</a>
+                    </li>
+                    <li >
+                        <a href="#">Mi lista</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar__menu">
+                <img class="icons8__icons" src="Recursos/Busqueda.png" alt="">
+                <img class="icons8__icons" src="Recursos/Campana.png" alt="">
+                <img class="icons8__icons" src="Recursos/Usuario.png" alt="">
+            </div>
         </div>
-        <div class="navbar__browse"><ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Series</a></li>
-            <li><a href="#">Peliculas</a></li>
-            <li><a href="#">Mas recientes</a></li>
-            <li><a href="#">Mi lista</a></li>
-        </ul></div>
-        <div class="navbar__menu">
-            <img src="Recursos/Busqueda.png" alt="">
-            <img src="Recursos/Campana.png" alt="">
-            <img src="Recursos/Usuario.png" alt="">
+        <div class="header">
+            <video
+                src="Recursos/01 - Presentación.mp4"
+                muted="muted"
+                autoplay="autoplay"
+                loop="loop"></video>
+            <div class="header__information">
+                <div class="header__information__type">
+                <img src="Recursos/mini logo.png" alt="">
+                <h2>Serie</h2>
+                </div>
+                <div class="header__information__text">
+                    <h1>Bienvenidos a <br>100% Legal</h1>
+                </div>
+                <div class="header__information__actions">
+                    <button>
+                        <img src="Recursos/Play.png" alt="" class="icons8__icon">
+                        Reproducir
+                    </button>
+                    <button>
+                        <img src="Recursos/information.png" alt="" class="icons8__icon" style="height: 21px;">
+                        Mas informacion
+                    </button>
+                </div>
+            </div>
         </div>
-    </div>
-   
-</body>
+    </body>
 </html>
